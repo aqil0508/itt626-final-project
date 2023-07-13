@@ -11,7 +11,11 @@ const server = express()
 
 // Middleware
 server.use(bodyParser.json())
-server.use(cors({ credentials: true }))
+server.use(cors({ 
+  origin: ["https://deploy-mern-1whq.vercel.app'],
+  methods: ["POST", "GET"],
+  credentials: true
+}))
 server.use(authMiddleware.initialize)
 
 // Routes
