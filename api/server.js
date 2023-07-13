@@ -12,7 +12,7 @@ const server = express()
 // Middleware
 server.use(bodyParser.json())
 server.use(cors({ 
-  origin: ["https://itt626-final-project.vercel.app/'],
+  origin: ["https://itt626-final-project.vercel.app'],
   methods: ["POST", "GET"],
   credentials: true
 }))
