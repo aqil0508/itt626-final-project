@@ -1,7 +1,7 @@
 import axios from 'axios'
 import { rememberToken, getValidToken } from './token'
 
-const baseURL = 'https://itt626-final-project.vercel.app/'
+const baseURL = 'https://itt626-final-project.vercel.app'
 
 // Create an axios instance
 const api = axios.create({
