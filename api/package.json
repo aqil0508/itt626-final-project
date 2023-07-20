@@ -4,7 +4,7 @@
   "description": "Application for booking room",
   "main": "index.js",
   "license": "MIT",
- 
+  "type": "module",
   "devDependencies": {
     "dotenv": "^4.0.0",
     "nodemon": "^1.14.10"
